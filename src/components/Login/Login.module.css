@@ -1,0 +1,56 @@
+.rectangleGroup {
+    box-shadow: -4px -4px 17px rgba(234, 234, 234, 0.08),
+        4px 4px 17px rgba(0, 0, 0, 0.16);
+    border-radius: var(--br-11xl);
+    background: linear-gradient(115.13deg,
+            rgba(1, 180, 184, 0.3) 5.04%,
+            rgba(1, 93, 119, 0.3) 51.8%,
+            rgba(0, 17, 61, 0.3) 92.88%);
+    border: 1px solid var(--color-lavender);
+    width: 36.188rem;
+    height: 24.688rem;
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-21xl) 2.125rem 3.562rem var(--padding-21xl);
+}
+
+.logInWrapper {
+    flex: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.formStyles {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.input {
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    height: 4.188rem;
+}
+
+.buttonWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.frameButton {
+    border-radius: var(--br-5xs);
+    height: 50px;
+    width: 80%;
+    font-family: var(--header-text);
+    font-size: 24px;
+    font-weight: 600;
+}
