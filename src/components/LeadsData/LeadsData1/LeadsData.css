@@ -1,0 +1,215 @@
+.desktop-4-child {
+  align-self: stretch;
+  height: 86px;
+}
+
+.riteam-line-icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.riteam-line-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+
+.nurses {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 71px;
+}
+
+.frame-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+
+.riteam-line-icon1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.riteam-line-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+
+.school-teachers {
+  position: relative;
+  font-weight: 500;
+}
+
+.frame-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+
+.riteam-line-icon2 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.riteam-line-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+
+.lecturers {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 96px;
+}
+
+.frame-div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+
+.frame-parent {
+  flex-direction: column;
+  gap: 36px;
+}
+
+.desktop-4,
+.desktop-4-inner,
+.desktop-4-wrapper,
+.frame-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.desktop-4-inner {
+  flex-direction: row;
+  padding: 0 var(--padding-9xl);
+}
+
+.desktop-4,
+.desktop-4-wrapper {
+  flex-direction: column;
+}
+
+.desktop-4 {
+  align-self: stretch;
+  border-radius: 0 20px 0 0;
+  background-color: var(--color-darkslategray-200);
+  overflow: hidden;
+  padding: 0 0 746px;
+  gap: 48px;
+}
+
+.desktop-4-wrapper {
+  width: 320px;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+
+.frame-parent1,
+.leads-data-1,
+.leads-data-1-inner {
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.frame-parent1 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 39px;
+}
+
+.leads-data-1,
+.leads-data-1-inner {
+  box-sizing: border-box;
+}
+
+.leads-data-1-inner {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xl) 0 0;
+  min-width: 665px;
+}
+
+.leads-data-1 {
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 var(--padding-base) 0 0;
+  line-height: normal;
+  letter-spacing: normal;
+  row-gap: 20px;
+  text-align: left;
+  font-size: var(--sub-header-size);
+  color: var(--color-white);
+  font-family: var(--body-text);
+}
+
+@media screen and (max-width: 1125px) {
+  .leads-data-1 {
+    flex-wrap: wrap;
+    padding: var(--padding-base) var(--padding-xl) var(--padding-base) var(--padding-base);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .desktop-4 {
+    padding-bottom: 485px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .frame-parent1 {
+    gap: var(--gap-lgi);
+  }
+
+  .leads-data-1-inner {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+  .lecturers,
+  .nurses,
+  .school-teachers {
+    font-size: var(--body-text-size);
+  }
+
+  .desktop-4 {
+    gap: 24px;
+    padding-bottom: 315px;
+    box-sizing: border-box;
+  }
+}

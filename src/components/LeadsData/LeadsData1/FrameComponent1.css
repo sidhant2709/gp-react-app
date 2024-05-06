@@ -1,0 +1,127 @@
+.nurses1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.nurses-wrapper {
+  width: 178px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+}
+.tablersearch-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tablersearch-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0 0;
+}
+.mdiplus-circle-outline-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mdiplus-circle-outline-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0 0;
+}
+.material-symbolsnotifications-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.material-symbolsnotifications-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-5xs) 0 0;
+}
+.admin {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 69px;
+}
+.admin-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-5xs) 0 0;
+}
+.ellipse-icon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.frame-parent4,
+.frame-parent5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.frame-parent5 {
+  justify-content: flex-start;
+  font-size: var(--sub-header-size);
+}
+.frame-parent4 {
+  align-self: stretch;
+  justify-content: space-between;
+}
+.frame-child4 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px dashed var(--color-darkslategray-100);
+  box-sizing: border-box;
+}
+.frame-parent3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: var(--gap-2xs);
+  text-align: left;
+  font-size: var(--header-text-size);
+  color: var(--color-darkslategray-200);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 750px) {
+  .frame-parent4 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .nurses1 {
+    font-size: var(--font-size-lgi);
+  }
+  .admin {
+    font-size: var(--body-text-size);
+  }
+}
